@@ -1,0 +1,66 @@
+body {
+    background-image: linear-gradient(to left, rgb(165, 83, 241), rgb(25, 203, 235));
+}
+
+.taskContainer {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 20px;
+  height: fit-content;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: white;
+
+}
+
+.listContainer{
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+    height: fit-content;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: white;
+    
+}
+
+.input:focus {
+    color:rgb(79, 21, 185);
+    border-radius: 5px;
+}
+
+button{
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(63, 137, 235);
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    margin-left: 80px;
+    
+}
+
+
+p {
+    border-bottom: 2px solid gray;
+   
+}
+
+.list {
+    width: 60%;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-gap: 5px;
+    margin: auto;
+    align-items:center;
+
+    
+}
+
+
